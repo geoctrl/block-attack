@@ -1,0 +1,35 @@
+{
+  "name": "block-attack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --progress --inline --watch",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoctrl/block-attack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geoctrl/block-attack/issues"
+  },
+  "homepage": "https://github.com/geoctrl/block-attack#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "expose-loader": "^0.7.3",
+    "html-webpack-plugin": "^2.29.0",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.8.1",
+    "webfontloader": "^1.6.28"
+  }
+}
